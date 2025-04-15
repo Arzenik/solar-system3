@@ -1,6 +1,44 @@
 {
+  "name": "threejs-scroll-particles",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.0.0",
+    "@react-three/fiber": "^8.0.0",
     "@react-three/postprocessing": "^3.0.4",
-    "postprocessing": "^6.37.2"
+    "postprocessing": "^6.37.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.150.0",
+    "gsap": "^3.12.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/three": "^0.150.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
